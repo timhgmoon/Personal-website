@@ -38,6 +38,7 @@ This project is a personal portfolio that will showcase my skills and recent pro
 - Adding Form
 - Hamburger Menu
 - Aesthetics (home, about, projects, contact)
+- Using jquery for animations
 
 
 #### PostMVP 
