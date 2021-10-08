@@ -66,9 +66,6 @@ This project is a personal portfolio that will showcase my skills and recent pro
 | Interactive Menu buttons | M | 1 | | tbd |
 | Carrousel | L | 5 | | tbd |
 | css animation | M | 3 | | tbd |
-
-
-
 | Total | H | 36 |  | tbd |
 
 ## Additional Libraries
