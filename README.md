@@ -44,7 +44,7 @@ This project is a personal portfolio that will showcase my skills and recent pro
 #### PostMVP 
 
 - Dynamic Background
-- Dynamic Transitions (css/jquery)
+- extra transitions (css/jquery)
 - Styling form
 - Image carousel
 
