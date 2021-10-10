@@ -9,46 +9,56 @@
 </head>
 <body>
   <div class="container">
-    <nav>
-      <ul>
+    <header>
+      <img src="logo.png" id="logo" alt="logo">
+      <div id="about">
+        <h1 id="name">Tim Moon</h1>
+        <h2>Full Stack Developer</h2>
+        <p class="about-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      </div>
+      <img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" id="icon"/>
+      <ul class="nav" id="top-nav">
+        
         <li><a href="">About</a></li>
         <li><a href="">Project</a></li>
         <li><a href="">Skills</a></li>
         <li><a href="">Collab</a></li>
       </ul>
     </nav>
-    <div class="about">
-      <h1 id="name">Tim Moon</h1>
-      <h2>Full Stack Developer</h2>
-      <p class="about-description"></p>
-    </div>
+    </header>
+    
     <div class="projects">
-      <div class="project-1"></div>
+      <h2 id="project-title">Projects</h2>
+      <div id="project-1">
+        <h3>To-do List</h3>
+        <a href=""><img src="todo.png" class="project-image" alt="to-do list image"></a></a>
+      </div>
+      <div id="project-2">
+        <h3>"Name of project"</h3>
+      </div>
     </div>
     <div class="skills">
+      <h2>Skills</h2>
+      <div class="skill-1"></div>
+      <div class="skill-1"></div>
       <div class="skill-1"></div>
     </div>
     <div class="collab">
       <form action="">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="button">
+        <input type="text" id="email" placeholder="www.example@gmail.com">
+        <input type="text" id="name" placeholder="Name">
+        <textarea name="Message" id="message" cols="20" rows="10"></textarea>
+        <button>Submit</button>
       </form>
-      <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
     </div>
     <footer>
-      <ul>
+      <ul class="nav">
         <li><a href="">About</a></li>
         <li><a href="">Project</a></li>
         <li><a href="">Skills</a></li>
         <li><a href="">Collab</a></li>
-    </ul>
-  </footer>
+      </ul>
+    </footer>
   </div>
   <script src="script.js"></script>
 </body>

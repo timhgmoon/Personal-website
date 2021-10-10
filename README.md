@@ -71,6 +71,7 @@ This project is a personal portfolio that will showcase my skills and recent pro
 
 ## Additional Libraries
  - svg sourced from [Simple Icons](https://simpleicons.org/))
+ - logo from https://www.freelogodesign.org/
 
 ## Code Snippet
 
