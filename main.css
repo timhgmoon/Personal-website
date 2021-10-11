@@ -7,18 +7,38 @@
 .container {
   background-color: white;
   display: flex;
-  flex-direction:column;  
+  flex-direction: column;
+  margin: 10px 5px;
 }
 header {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30px;
+  position: relative;
+}
+.nav {
+  background-color:lightgreen;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+#top-nav {
+  position: absolute;
+  right: 10%;
+  top: 2%;
+  
+}
+li {
+  text-decoration: none;
+  font-size: 20px;
 }
 #about {
   width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 #logo {
   width: 30px;
@@ -28,19 +48,6 @@ header {
   width: 30px;
   height: 30px;
 }
-#top-nav {
-  display:none;
-}
-.nav {
-  background-color:lightgreen;
-  display: flex;
-  list-style-type: none;
-  gap: 10px;
-}
-
-li {
-  text-decoration: none;
-}
 .projects {
   background-color: lightcyan;
   display: flex;
@@ -49,25 +56,83 @@ li {
   align-items: center;
 }
 #project-title {
-  
+  padding: 10px;
 }
 #project-1 {
-  grid-column: 1/ span 3;
-  grid-row: 2/3;
+  grid-column: 1 / span 3;
+  grid-row: 2 / 3;
 }
 #project-2 {
-  grid-column: 1/ span 3;
-  grid-row: 3/4;
+  grid-column: 1 / span 3;
+  grid-row: 3 / 4;
 }
 .project-image {
-  width: 100%;
+  width: 300px;
   height: 250px;
 }
 h3 {
-  
+  padding-bottom: 20px;
 }
 .skills {
   background-color:lightgoldenrodyellow;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+#skill-header {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  align-self: center;
+}
+.skill-1 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-2 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-3 {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-4 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-5 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-6 {
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-icon {
+  width: 50px;
+  height: 40px;
+}
+.skill-paragraph {
+  
 }
 .collab {
   background-color: lightslategrey;
