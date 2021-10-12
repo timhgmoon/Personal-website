@@ -1,0 +1,107 @@
+@media screen and (min-width: 768px) {
+  header {
+    height: 550px;
+  }
+  #logo {
+    width: 60px;
+    height: 60px;
+  }
+  #top-nav {
+    display: flex;
+    right: 2%;
+  }
+  #about {
+    margin-right: 20%;
+    margin-bottom: 10%;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  #icon {
+    display: none;
+    
+  }
+  .projects {
+  }
+  #project-title {
+    grid-column: 6 / 8;
+  }
+  #project-1 {
+    grid-row: 2/ 9;
+    
+  }
+  #project-2 {
+    grid-column: 7 / 12;
+    grid-row: 2 / 9;
+  }
+  .skills {
+  }
+  .skill-4 {
+    padding-top: 10px;
+  }
+  .skill-5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  .skill-6 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+  }
+  input {
+    width: 40%;
+  }
+  textarea {
+    width: 70%;
+  }
+  .icon-link-image {
+    height: 40px;
+    width: 40px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 30px;
+  }
+  header {
+    height: 800px;
+  }
+  #about {
+    margin-right: 25%;
+    margin-bottom: 3%;
+    width: 50%;
+  }
+  .project-image {
+    width: 800px;
+    height: 700px;
+  }
+  #project-title {
+    grid-column: 6 / 8;
+    text-align: center;
+  }
+  #project-1 {
+    grid-column: 2 / 6;
+    grid-row: 2 / 12;
+  }
+  #project-2 {
+    grid-column: 8 / 12;
+  }
+  #skill-header {
+    text-align: center;
+  }
+  input, textarea, button{
+    line-height: 40px;
+    font-size: 30px;
+    margin: 20px;
+  }
+  
+  button {
+    width: 15%;
+  }
+
+  .icon-link-image {
+    height: 70px;
+    width: 70px;
+    margin-right: 40px;
+  }
+}
