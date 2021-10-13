@@ -13,37 +13,40 @@
     <header>
       <img src="img/logo.png" id="logo" alt="logo">
       <ul class="nav" id="top-nav">
-        <li><a href="#project-2">About</a></li>
-        <li><a href="">Project</a></li>
-        <li><a href="">Skills</a></li>
-        <li><a href="">Collab</a></li>
+        <li><a href="#title">About</a></li>
+        <li><a href="#project-title">Project</a></li>
+        <li><a href="#skill-header">Skills</a></li>
+        <li><a href="#h2-collab">Collab</a></li>
       </ul>
       <div id="about">
-        <h1 id="name">Tim Moon</h1>
-        <h2>Full Stack Developer</h2>
+        <h1 id="title">Tim Moon</h1>
+        <h2 id="name-header">Full Stack Developer</h2>
         <p class="about-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
       </div>
     </header>
     
     <div class="projects">
-      <h2 id="project-title">Projects</h2>
-      <div id="project-1">
-        <h3>To-do List</h3>
-        <a href=""><img src="img/todo.png" class="project-image" alt="to-do list image"></a></a>
-        <div class="project-banner" id="todo-banner">
-          <p>Responsive Design Layout is one of the early projects I did which showcases proper use of media queries to fit the webpage in all screens(mobile, tablet, desktop)</p>
+      <div id="projects-unskew">
+        <h2 id="project-title">Projects</h2>
+        <div id="project-1">
+          <h3>To-do List</h3>
+          <a href=""><img src="img/todo.png" class="project-image" alt="to-do list image"></a></a>
+          <div class="project-banner" id="todo-banner">
+            <p>Responsive Design Layout is one of the early projects I did which showcases proper use of media queries to fit the webpage in all screens(mobile, tablet, desktop)</p>
+          </div>
         </div>
-      </div>
-      <div id="project-2">
-        <h3>Responsive Design Layout</h3>
-         <a href=""><img src="img/Responsive.png" class="project-image" alt="responsive design image"></a></a>
-        <div class="project-banner">
-          <p>Responsive Design Layout is one of the early projects I did which showcases proper use of media queries to fit the webpage in all screens(mobile, tablet, desktop)</p>
+        <div id="project-2">
+          <h3>Responsive Design Layout</h3>
+           <a href=""><img src="img/Responsive.png" class="project-image" alt="responsive design image"></a></a>
+          <div class="project-banner">
+            <p>Responsive Design Layout is one of the early projects I did which showcases proper use of media queries to fit the webpage in all screens(mobile, tablet, desktop)</p>
+          </div>
         </div>
       </div>
     </div>
     <div class="skills">
-      <h2 id="skill-header">Skills</h2>
+      <div id="skills-unskew">
+        <h2 id="skill-header">Skills</h2>
       <div class="skill-1">
         <img src="img/html5.svg" alt="html icon" class="skill-icon">
         <p class="skill-paragraph">Html</p>
@@ -68,20 +71,24 @@
         <img src="img/python.svg" alt="python icon" class="skill-icon">
         <p class="skill-paragraph">Python</p>
       </div>
+      </div>
+      
     </div>
     <div class="collab">
-      <h2 id="h2-collab">Collaborate with me!</h2>
-      <form action="">
-        <input type="text" id="email" placeholder="www.example@gmail.com">
-        <input type="text" id="name" placeholder="Name">
-        <textarea placeholder="Enter message here!" name="Message" id="message" cols="20" rows="10"></textarea>
-        <button>Submit</button>
-      </form>
-      <ul class="icon-links">
-        <li><a href=""><img src="img/icons8-linkedin.svg" alt="LinkedIn logo" class="icon-link-image"></a></li>
-        <li><a href=""><img src="img/icons8-twitter.svg" alt="twitter logo" class="icon-link-image"></a></li>
-        <li><a href=""><img src="img/icons8-instagram.svg" alt="instagram logo" class="icon-link-image"></a></li>
-      </ul>
+      <div id="collab-unskew">
+        <h2 id="h2-collab">Collaborate with me!</h2>
+        <form action="">
+          <input type="text" id="email" placeholder="www.example@gmail.com">
+          <input type="text" id="name" placeholder="Name">
+          <textarea placeholder="Tell me what you want to work on!" name="Message" id="message" cols="20" rows="10"></textarea>
+          <button>Submit</button>
+        </form>
+        <ul class="icon-links">
+          <li><a href=""><img src="img/icons8-linkedin.svg" alt="LinkedIn logo" class="icon-link-image"></a></li>
+          <li><a href=""><img src="img/icons8-twitter.svg" alt="twitter logo" class="icon-link-image"></a></li>
+          <li><a href=""><img src="img/icons8-github.svg" alt="instagram logo" class="icon-link-image"></a></li>
+        </ul>
+      </div>
     </div>
     <footer>
       <ul class="nav">

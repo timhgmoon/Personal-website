@@ -7,6 +7,7 @@
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
 }
 .container {
   background-color: white;
@@ -30,10 +31,10 @@ header {
 #logo {
   width: 30px;
   height: 30px;
+  margin: 5px;
 }
 .nav {
-  background-color:lightgreen;
-  gap: 15px;
+  gap: 10px;
   list-style-type: none;
   display: flex;
 }
@@ -44,11 +45,13 @@ header {
   position: absolute;
   right: 2%;
   top: 2%;
-
 }
-li a{
+.nav li a{
+  display: block;
   text-decoration: none;
   font-size: 15px;
+  color: white;
+  padding: 6px;
 }
 #about {
   width: 500px;
@@ -57,17 +60,30 @@ li a{
   align-items: center;
   margin-top: 80px;
 }
+.nav li a, #title, #name-header, #about p {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#title {
+  font-size: 60px;
+}
+#name-header {
+  
+}
 h2 {
   padding: 10px;
 }
 .projects {
-  background-color: lightcyan;
+  background-color: white;
+  margin-bottom: -20px;
+}
+#projects-unskew {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, auto);
+  align-items: center;
   gap: 10px;
-  margin-bottom: -20px;
-  
 }
 #project-title {
   grid-column: 5 / 7;
@@ -75,12 +91,12 @@ h2 {
 }
 #project-1 {
   grid-row: 2 / 7;
-  grid-column: 2 / 12;
+  grid-column: 3 / 11;
   position: relative;
 }
 #project-2 {
   grid-row: 7 / 10;
-  grid-column: 2 / 12;
+  grid-column: 3 / 11;
   position: relative;
 }
 /* change this to javascript later for better readability*/
@@ -89,7 +105,7 @@ h2 {
 }
 .project-banner {
   opacity: 0;
-  width: 100%;
+  width: 250px;
   bottom: 0;
   position: absolute;
   background: rgba(220, 231, 245, 0)
@@ -97,13 +113,12 @@ h2 {
 }
 .project-banner:hover {
   opacity: 1;
-  width: 100%;
   position: absolute;
   bottom: 0;
-  background: rgba(220, 231, 245, 0.5)
+  background: rgba(38, 40, 43, 0.5)
 }
 .project-image {
-  width: 300px;
+  width: 250px;
   height: 250px;
 }
 h3 {
@@ -111,11 +126,14 @@ h3 {
 }
 .skills {
   background-color:lightgoldenrodyellow;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#skills-unskew {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
-  padding-bottom: 20px;
 }
 #skill-header {
   grid-column: 3 / 4;
@@ -168,11 +186,7 @@ h3 {
   width: 50px;
   height: 40px;
 }
-.skill-paragraph {
-  
-}
-.collab {
-  background-color: lightslategrey;
+#collab-unskew {
   position: relative;
 }
 #h2-collab {
@@ -198,12 +212,8 @@ button {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
-  gap: 4px;
   position: absolute;
   right: 0;
   bottom: -3px;
-}
-footer {
-  background-color:mediumorchid;
 }
 
