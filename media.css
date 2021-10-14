@@ -15,35 +15,43 @@
     padding: 15px;
   }
   #about {
-    margin-right: 22%;
+    margin-right: 20%;
     margin-bottom: 5%;
     justify-content: flex-end;
     gap: 5px;
   }
   #title {
-    font-size: 70px;
+    font-size: 55px;
+  }
+  p {
+    font-size: 15px;
   }
   #name-header {
     font-size: 30px;
   }
-  #icon {
-    display: none;
-    
+  h2 {
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+  }
+  h3 {
+    font-size: 30px;
   }
   .projects {
     margin-top: -35px;
     transform: skewY(3deg);
+    padding: 100px 0;
   }
   #projects-unskew {
     transform: skewY(-3deg);
     margin: 30px 0;
   }
   #project-title {
-    grid-column: 6 / 8;
+    grid-column: 5 / 8;
   }
   #project-1 {
     grid-row: 2/ 9;
     grid-column: 2/6;
+    padding-left: 30px;
     
   }
   #project-2 {
@@ -52,8 +60,8 @@
   }
   .skills {
     transform: skewY(-3deg);
-    background-color: skyblue;
-    height: 375px;
+    height: 500px;
+    padding-top: 50px;
   }
   #skills-unskew {
     transform: skewY(3deg);
@@ -69,6 +77,14 @@
   .skill-6 {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
+  }
+  .skill-icon {
+    width: 60px;
+    height: 50px;
+  }
+  .skill-paragraph {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
   }
   .collab {
     transform: skewY(3deg);
@@ -93,17 +109,60 @@
 
 }
 
+/*DESKTOP VIEW */
 @media only screen and (min-width: 1024px) {
   body {
     font-size: 30px;
   }
   header {
     height: 800px;
+    padding-bottom: 90px;
   }
   #about {
     margin-right: 25%;
     margin-bottom: 3%;
     width: 50%;
+  }
+  #title {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+  }
+  @keyframes left-right {
+    from {
+      left: 20px;
+    }
+    to {
+      right: 10%;
+    }
+  }
+  #ufo-image {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    opacity: 75%;
+    animation-duration: 4s;
+    animation-name: left-right;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    display: block;
+  }
+  #rocket-image {
+    width: 250px;
+    height: 150px;
+    bottom: 0;
+    position: absolute;
+    opacity: 80%;
+    display: block;
+  }
+  .projects {
+    margin-top: -70px;
   }
   .project-image {
     width: 400px;
@@ -121,13 +180,17 @@
     grid-column: 8 / 12;
   }
   .skills {
-    height: 500px;
+    height: 650px;
   }
   #skill-header {
     text-align: center;
   }
+  .skill-icon {
+    width: 70px;
+    height: 60px;
+  }
   .collab {
-    margin-top: -80px;
+    margin-top: -150px;
   }
   input, textarea, button{
     line-height: 30px;
@@ -142,8 +205,8 @@
   }
 
   .icon-link-image {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     margin-right: 20px;
   }
 }

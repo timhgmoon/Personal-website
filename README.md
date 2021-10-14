@@ -72,6 +72,8 @@ This project is a personal portfolio that will showcase my skills and recent pro
  - svg sourced from [Simple Icons](https://simpleicons.org/))
  - logo from https://www.freelogodesign.org/
  - icons from icon8.com
+ - img's from vecteezy.com (link at the bottom of page)
+ 
 
 ## Code Snippet
 
@@ -83,3 +85,9 @@ may or may not use. I already knew how to use linear gradient with background co
 skewing divs w/o skewing text: https://stackoverflow.com/questions/17947565/how-to-skew-element-but-keep-text-normal-unskewed
 
 Used mdn/w3schools as a reference to skew the divs to create a slanted line between each div(header, projects, skills, collab).  Had a hard time with slanting the div without getting the text to slant with it.  Used this stackoverflow as a reference.  Solved issue by creating another div within the main div and unslanting everything inside the nested div. Used something along the lines of transform: skewY(x) to get the initial line at the top/bottom of divs then unskewed by using transform: skewY(-x) on the inner div to bring all the content inside back to normal.
+
+back and forth css animation: https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+
+Used CSS for one of my animations to make the ufo-image go back and forth in the header portion.  Had trouble using the keyframes because I was going from 10% to 20% but fixed once I changed to either pixels or from 0 -> any %. 

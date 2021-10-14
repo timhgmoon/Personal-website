@@ -26,8 +26,22 @@ header {
   padding-bottom: 30px;
   position: relative;
   color: lightyellow;
+  position: relative;
 }
-
+@keyframes left-right {
+  from {
+    left: 30px;
+  }
+  to {
+    right: 20%;
+  }
+}
+#ufo-image {
+  display: none;
+}
+#rocket-image {
+  display: none;
+}
 #logo {
   width: 30px;
   height: 30px;
@@ -64,15 +78,23 @@ header {
   color: white;
   text-shadow: 1px 1px 1px black;
 }
-
+p {
+  font-size: 12px;
+}
 #title {
   font-size: 60px;
 }
 #name-header {
-  
+  font-style: italic;
+  font-size: 25px;
 }
 h2 {
   padding: 10px;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px black;
+}
+h3 {
+  font-size: 20px;
 }
 .projects {
   background-color: white;
@@ -82,7 +104,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, auto);
-  align-items: center;
+ 
   gap: 10px;
 }
 #project-title {
@@ -125,7 +147,7 @@ h3 {
   padding-bottom: 20px;
 }
 .skills {
-  background-color:lightgoldenrodyellow;
+  background: linear-gradient(to right, #886fcb, #2c6191);
   padding-bottom: 20px;
   text-align: center;
 }
@@ -214,6 +236,12 @@ button {
   justify-content: flex-end;
   position: absolute;
   right: 0;
-  bottom: -3px;
+  bottom: -7px;
 }
-
+footer {
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+footer .nav li a{
+  color: black;
+}
