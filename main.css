@@ -67,6 +67,9 @@ header {
   color: white;
   padding: 6px;
 }
+#top-nav li a:hover {
+  color: yellow;
+}
 #about {
   width: 500px;
   display: flex;
@@ -122,26 +125,21 @@ h3 {
   position: relative;
 }
 /* change this to javascript later for better readability*/
-#todo-banner p{
-  color: white;
-}
 .project-banner {
-  opacity: 0;
+  color: white;
+  display: none;
   width: 250px;
-  bottom: 0;
+  bottom: 7px;
   position: absolute;
-  background: rgba(220, 231, 245, 0)
-  
+  padding: 10px;
 }
-.project-banner:hover {
-  opacity: 1;
-  position: absolute;
-  bottom: 0;
-  background: rgba(38, 40, 43, 0.5)
+.toggle {
+  display: block;
+  background: rgba(38, 40, 43, 0.8)
 }
 .project-image {
   width: 250px;
-  height: 250px;
+  height: 250px
 }
 h3 {
   padding-bottom: 20px;
@@ -213,6 +211,7 @@ h3 {
 }
 #h2-collab {
   text-align: center;
+  padding: 30px;
 }
 form {
   display: flex;

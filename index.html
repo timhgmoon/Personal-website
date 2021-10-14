@@ -9,6 +9,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous">
   </script>
+  <link rel="icon" href="/img/logo.png">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="media.css">
   <title>Document</title>
@@ -19,7 +20,7 @@
       <img src="img/logo.png" id="logo" alt="logo">
       <ul class="nav" id="top-nav">
         <li><a href="#title">About</a></li>
-        <li><a href="#project-title">Project</a></li>
+        <li><a href="#project-title">Projects</a></li>
         <li><a href="#skill-header">Skills</a></li>
         <li><a href="#h2-collab">Collab</a></li>
       </ul>
@@ -37,15 +38,15 @@
         <h2 id="project-title">Projects</h2>
         <div id="project-1">
           <h3>To-do List</h3>
-          <a href=""><img src="img/todo.png" class="project-image" alt="to-do list image"></a></a>
+          <a href=""><img src="img/todo.png" alt="to-do list image" class="project-image"  id="todo-image"></a></a>
           <div class="project-banner" id="todo-banner">
-            <p>Responsive Design Layout is one of the early projects I did which showcases proper use of media queries to fit the webpage in all screens(mobile, tablet, desktop)</p>
+            <p>The todo-list includes functions such as adding, deleting, crossing out, and editing. Count will be based off total items minus crossed off items.</p>
           </div>
         </div>
         <div id="project-2">
-          <h3>Responsive Design Layout</h3>
-           <a href=""><img src="img/Responsive.png" class="project-image" alt="responsive design image"></a></a>
-          <div class="project-banner">
+          <h3>Responsive Layout</h3>
+           <a href=""><img src="img/Responsive.png" alt="responsive layout image" class="project-image" id="responsive-image"></a></a>
+          <div class="project-banner" id="responsive-banner">
             <p>Responsive Design Layout is one of the early projects I did which showcases proper use of media queries to fit the webpage in all screens(mobile, tablet, desktop)</p>
           </div>
         </div>
@@ -85,9 +86,9 @@
       <div id="collab-unskew">
         <h2 id="h2-collab">Collaborate with me!</h2>
         <form action="">
-          <input type="text" id="email" placeholder="www.example@gmail.com">
-          <input type="text" id="name" placeholder="Name">
-          <textarea placeholder="Tell me what you want to work on!" name="Message" id="message" cols="20" rows="10"></textarea>
+          <input type="text" id="name" placeholder="Name" required>
+          <input type="email" id="email" placeholder="www.example@gmail.com">
+          <textarea placeholder="Tell me what you want to work on!" name="Message" id="message" cols="20" rows="10" required></textarea>
           <button>Submit</button>
         </form>
         <ul class="icon-links">

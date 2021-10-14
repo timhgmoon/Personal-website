@@ -3,8 +3,9 @@
     height: 550px;
   }
   #logo {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
   }
   #top-nav {
     display: flex;
@@ -25,6 +26,35 @@
   }
   p {
     font-size: 15px;
+  }
+  @keyframes left-right {
+    from {
+      left: 20px;
+    }
+    to {
+      right: 10%;
+    }
+  }
+  #ufo-image {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    opacity: 75%;
+    animation-duration: 4s;
+    animation-name: left-right;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    display: block;
+  }
+  #rocket-image {
+    width: 150px;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    opacity: 80%;
+    display: block;
   }
   #name-header {
     font-size: 30px;
@@ -57,6 +87,9 @@
   #project-2 {
     grid-column: 7 / 12;
     grid-row: 2 / 9;
+  }
+  .project-banner {
+    height: 150px;
   }
   .skills {
     transform: skewY(-3deg);
@@ -114,6 +147,10 @@
   body {
     font-size: 30px;
   }
+  #logo {
+    width: 50px;
+    height: 50px;
+  }
   header {
     height: 800px;
     padding-bottom: 90px;
@@ -132,34 +169,13 @@
   p {
     font-size: 20px;
   }
-  @keyframes left-right {
-    from {
-      left: 20px;
-    }
-    to {
-      right: 10%;
-    }
-  }
   #ufo-image {
     width: 300px;
     height: 200px;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    opacity: 75%;
-    animation-duration: 4s;
-    animation-name: left-right;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    display: block;
   }
   #rocket-image {
     width: 250px;
     height: 150px;
-    bottom: 0;
-    position: absolute;
-    opacity: 80%;
-    display: block;
   }
   .projects {
     margin-top: -70px;
@@ -173,11 +189,17 @@
     text-align: center;
   }
   #project-1 {
-    grid-column: 2 / 6;
+    grid-column: 2 / 7;
     grid-row: 2 / 12;
   }
   #project-2 {
-    grid-column: 8 / 12;
+    grid-column: 8 / 13;
+    grid-row: 2 / 12;
+  }
+  .project-banner {
+    width: 400px;
+    height: 160px;
+    bottom: 20px;
   }
   .skills {
     height: 650px;
@@ -190,7 +212,10 @@
     height: 60px;
   }
   .collab {
-    margin-top: -150px;
+    margin-top: -100px;
+  }
+  #h2-collab {
+    padding: 50px;
   }
   input, textarea, button{
     line-height: 30px;
