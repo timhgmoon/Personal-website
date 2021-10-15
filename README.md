@@ -55,18 +55,18 @@ This project is a personal portfolio that will showcase my skills and recent pro
 | Dynamic Background | M | 3 |  | tbd |
 | Adding Form | H | 1|  | < 1 |
 | Styling Form | M | 3 |  | tbd |
-| Working with jquery animation| H | 4 |  | tbd |
-| Dynamic Transitions | M | 4 |  | tbd |
+| Working with jquery animation| H | 4 |  | 2 |
+| Dynamic Transitions | M | 4 |  | 4 |
 | Project Tile Hover | L | 2 |  | 4|
-| Aesthetics Home | M | 1 |  | tbd |
-| Aesthetics About | M | 3 |  | tbd |
-| Aesthetics Projects | M | 2 |  | tbd |
-| Aesthetics Contact | M | 3 |  | tbd |
+| Aesthetics Home | M | 1 |  | combined |
+| Aesthetics About | M | 3 |  | combined |
+| Aesthetics Projects | M | 2 |  | combined |
+| Aesthetics Contact | M | 3 |  | combined |
 | Aesthetics Combined | M | 9 | | 8 |
-| Interactive Menu buttons | M | 1 | | tbd |
+| Interactive Menu buttons | M | 1 | | 1 |
 | Carrousel | L | 5 | | N/A |
-| css animation | M | 3 | | tbd |
-| Total | H | 36 |  | tbd |
+| css animation | M | 4 | | tbd |
+| Total | H | 36 |  | 30 |
 
 ## Additional Libraries
  - svg sourced from [Simple Icons](https://simpleicons.org/))
