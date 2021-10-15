@@ -244,6 +244,9 @@ footer {
 footer .nav li a{
   color: black;
 }
+footer .nav li a:hover {
+  color: #2c6191;
+}
 .nav .ad {
   display: none;
 }
