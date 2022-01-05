@@ -1,10 +1,7 @@
-$("document").ready(function(){
-  $("#rocket-image").animate({right: 100, top: 140}, 5000);
-})
 
 $project1 = $('#project-1');
 $project2 = $('#project-2');
-$todoBanner = $('#todo-banner');
+$todoBanner = $('#driver-banner');
 $responsiveBanner = $('#responsive-banner');
 
 //todo list mouse in/mouse out functions

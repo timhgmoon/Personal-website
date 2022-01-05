@@ -35,27 +35,7 @@
       right: 10%;
     }
   }
-  #ufo-image {
-    width: 200px;
-    height: 150px;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    opacity: 75%;
-    animation-duration: 4s;
-    animation-name: left-right;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    display: block;
-  }
-  #rocket-image {
-    width: 150px;
-    height: 100px;
-    bottom: 0;
-    position: absolute;
-    opacity: 80%;
-    display: block;
-  }
+  
   #name-header {
     font-size: 30px;
   }

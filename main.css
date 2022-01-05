@@ -36,12 +36,6 @@ header {
     right: 20%;
   }
 }
-#ufo-image {
-  display: none;
-}
-#rocket-image {
-  display: none;
-}
 #logo {
   width: 30px;
   height: 30px;
